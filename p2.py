@@ -1,7 +1,4 @@
-
-import random
-
-def roll():
-    return random.randint(1,6)
-    
-print(roll())
+total = 0
+for i in range(1, 6):
+    total += i
+print("Sum:", total)
